@@ -1,3 +1,9 @@
+## 优化
+
+1. 增加浏览器标签页icon图标
+2. 优化显示效果，限制宽度1200px居中
+3. 修复顶部标签页中文乱码问题，感谢[#16](https://github.com/TheInsomniac/Nginx-Fancyindex-Theme/pull/16)
+
 NGINX FancyIndex Theme
 ===
 
