@@ -1,3 +1,4 @@
+[原版英文文档](https://github.com/jackloves111/Nginx-Fancyindex-Theme/blob/master/README-EN.md)
 ## 优化
 
 1. 增加浏览器标签页icon图标
