@@ -1,26 +1,25 @@
 [原版英文文档](https://github.com/jackloves111/Nginx-Fancyindex-Theme/blob/master/README-EN.md)
-## 优化
+## 此版本优化部分效果
 
 1. 增加浏览器标签页icon图标
 2. 优化显示效果，限制宽度1200px居中
 3. 修复顶部标签页中文乱码问题，感谢[#16](https://github.com/TheInsomniac/Nginx-Fancyindex-Theme/pull/16)
 
 ## NGINX FancyIndex 主题  
-===  
   
 为nginx的fancyindex模块提供一个更漂亮的主题。关于这个优秀模块的更多细节可以在开发者的[github页面](https://github.com/aperezdc/ngx-fancyindex)上找到。  
   
 #### 注意：  
 NGX-FANCYINDEX将文件名截断为50个字符，减去3，然后在截断的名称后附加"..>"。这可以通过在修改"ngx_http_fancyindex_module.c"的第55行后重新编译NGX-FANCYINDEX来修复。  
 
-From:
-
+源代码:
+```
     #define NGX_HTTP_FANCYINDEX_NAME_LEN 50
-
-To:
-
+```
+改为:
+```
     #define NGX_HTTP_FANCYINDEX_NAME_LEN 500 (or some other number greater than 50)
-  
+```
 ##### 使用方法：  
  - 使用fancyindex模块编译nginx。  
  - 在nginx conf的位置指令中包含'fancyindex.conf'的内容。  
