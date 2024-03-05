@@ -56,6 +56,9 @@ html, body {
 .box {
   border: 1px solid #d9d6d6;
   width: 100%;
+  max-width: 1200px;
+  margin-left: auto;  /* 添加这两行来使.box水平居中 */  
+  margin-right: auto; /* 添加这两行来使.box水平居中 */ 
 }
 
 .box .box-header {
@@ -182,9 +185,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 1025px) {
-
-  /* I C O N S (only on 1024+ px resolutions)
+  /* I C O N S
   ~~~~~~~~~~~~*/
 
   #list a[href*="."]:before, #list a[href*="/"]:before,
@@ -201,7 +202,6 @@ a:hover {
   #list a[href$="/"]:before, #list a[href*="/?"]:before {
           background: url('../icons/folder_black.png') left center no-repeat;
   }
-
 
   /* A P P L I C A T I O N
   ~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -463,4 +463,8 @@ a:hover {
   #list a[href$=".wmv"]:before {
           background: url('../icons/video.png') left center no-repeat;
   }
-}
+  
+  
+/*  (only on 1024+ px resolutions)*/
+/*  @media screen and (min-width: 1025px) { */
+/*}*/
