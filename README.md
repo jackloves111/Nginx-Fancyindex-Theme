@@ -32,7 +32,7 @@ NGX-FANCYINDEX将文件名截断为50个字符，减去3，然后在截断的名
   
 ##### 添加/修改：  
 - 来自[Splitbrain](http://www.splitbrain.org/projects/file_icons)的Mime类型图标  
-- 图标默认在大型设备上启用，在小型设备（如手机）上关闭。  （已经去除这个过时的效果，现代移动端都是大屏了）
+- ~~图标默认在大型设备上启用，在小型设备（如手机）上关闭。~~  （已经去除这个过时的效果，现代移动端都是大屏了）
 - 如果你根本不需要图标：复制css\fancyindex_NoIcons.css到css\fancyindex.css  
 - 更好地处理移动CSS点击区域。  
 - 添加HTML5 History以实现更快的页面转换。  
